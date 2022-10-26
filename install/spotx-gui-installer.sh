@@ -312,6 +312,10 @@ yad \
 	--width=500 \
 	--height=0 \
 	--fixed \
-	--button="Exit":0 \
+	--button="Exit" \
 	--title="SpotX Installer" \
 	--text='<span font="16"><b>Installation finished!</b></span>\n\nSpotX patch has finished successfully. Try opening Spotify!'
+
+rm ~/.temp/
+
+exit
