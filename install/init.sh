@@ -35,10 +35,10 @@ cd ~/.temp/icons/
 echo -e "Downloading icon32x32.png (2.17kb)"
 curl -O -s $ICON32
 echo -e "Created ~/.temp/license\n"
-echo -e "Downloading icon32x32.png (5.73kb)"
+echo -e "Downloading icon64x64.png (5.73kb)"
 curl -O -s $ICON64
 echo -e "Created ~/.temp/spotx-gui-installer.sh\n"
-echo -e "Downloading icon32x32.png (13.4kb)"
+echo -e "Downloading icon128x128.png (13.4kb)"
 curl -O -s $ICON128
 echo -e "Created ~/.temp/spotx-gui-installer.sh\n"
 echo -e "Preparation completed. Launching installer..."
