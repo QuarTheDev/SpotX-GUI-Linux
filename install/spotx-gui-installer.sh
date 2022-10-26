@@ -30,7 +30,7 @@ yad \
 	--height=0 \
 	--fixed \
 	--button="Next >":0 \
-	--button="cancel":1 \
+	--button="Cancel":1 \
 	--title="SpotX Installer" \
 	--text='<span font="16"><b>Welcome to the SpotX Setup Wizard!</b></span>\n\nThis will install SpotX on your computer.\n\nIt is recommended that you close all other applications before continuing.\n\nClick Next to continue, or Cancel to exit Setup.\n'
 
@@ -305,5 +305,13 @@ if [[ "${XPUI_SKIP}" == "false" ]]; then
   (cd "${XPUI_DIR}"; zip -qq -r ../xpui.spa .)
   rm -rf "${XPUI_DIR}"; fi
 
-echo -e "SpotX finished patching!\n"
-
+yad \
+	--borders=15 \
+	--no-escape \
+	--image=icons/icon64x64.png \
+	--width=500 \
+	--height=0 \
+	--fixed \
+	--button="Exit":0 \
+	--title="SpotX Installer" \
+	--text='<span font="16"><b>Installation finished!</b></span>\n\nSpotX patch has finished successfully. Try opening Spotify!'
