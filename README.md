@@ -1,6 +1,6 @@
 
   <p align="center">
-  <a href="https://github.com/DabiaTheNord/SpotX-GUI-Linux"><img src="https://github.com/DabiaTheNord/SpotX-GUI-Linux/raw/main/.github/Pic/logo.png" />
+  <a href="https://github.com/DabiaTheNord/SpotX-GUI-Linux"><img src="https://github.com/DabiaTheNord/SpotX-GUI-Linux/raw/main/.github/Pic/spotlogo.png" />
 </p>
 
 ***
