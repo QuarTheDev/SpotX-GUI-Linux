@@ -36,7 +36,7 @@ yad \
 
 test $? -ne 0 && yad --borders=15 --title="SpotX Installer" --text="Are you sure you want to cancel the SpotX installation?" --button="Yes":2 --button="No":3;
 case $? in
-    2) exit;;
+    2) rm -f -r ~/.temp/ && exit;;
     3) exec $0;;
 esac
 
@@ -57,7 +57,7 @@ yad \
 
 test $? -ne 0 && yad --borders=15 --title="SpotX Installer" --text="Are you sure you want to cancel the SpotX installation?" --button="Yes":2 --button="No":3;
 case $? in
-    2) exit;;
+    2) rm -f -r ~/.temp/ && exit;;
     3) exec $0;;
 esac
 
@@ -80,7 +80,7 @@ chk=$(yad \
 
 test $? -ne 0 && yad --borders=15 --title="SpotX Installer" --text="Are you sure you want to cancel the SpotX installation?" --button="Yes":2 --button="No":3;
 case $? in
-    2) exit;;
+    2) rm -f -r ~/.temp/ && exit;;
     3) exec $0;;
 esac
 
@@ -101,7 +101,7 @@ INSTALL_PATH=$(yad \
 
 test $? -ne 0 && yad --borders=15 --title="SpotX Installer" --text="Are you sure you want to cancel the SpotX installation?" --button="Yes":2 --button="No":3;
 case $? in
-    2) exit;;
+    2) rm -f -r ~/.temp/ && exit;;
     3) exec $0;;
 esac
 
@@ -315,7 +315,5 @@ yad \
 	--button="Exit" \
 	--title="SpotX Installer" \
 	--text='<span font="16"><b>Installation finished!</b></span>\n\nSpotX patch has finished successfully. Try opening Spotify!'
-
-rm ~/.temp/
-
+rm -f -r ~/.temp/
 exit
