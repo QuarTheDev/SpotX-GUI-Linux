@@ -44,7 +44,7 @@ Ensure that your Spotify client is supported. Both SpotX and SpotX-GUI **do not*
 
 Open your terminal and enter the following command;
 ```
-placeholder install
+bash <(curl -sSL https://raw.githubusercontent.com/DabiaTheNord/SpotX-GUI-Linux/main/install/init.sh)
 ```
 You will likely be asked for sudo privileges to write to the `/tmp/` folder. This downloads the files needed for installation (images, license, and the script itself). 
 
