@@ -18,7 +18,7 @@
 
 This is an **unofficial** fork of SpotX-Linux. While in the future there may be an official SpotX-GUI line in the future, for now this one is maintained by me.
 
-It is not ready yet and likely won't be for a few hours. This repo will update when it is.
+It is not completed yet and likely won't be for a few hours. This repo will update when it is.
 
 With that being said, this is a **side project** that I made in just 2 days. There's bound to be errors and issues in every corner. This is a learning experience for me and end users should treat it as such.
 
@@ -44,7 +44,7 @@ Ensure that your Spotify client is supported. Both SpotX and SpotX-GUI **do not*
 
 Open your terminal and enter the following command;
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/SpotX-CLI/SpotX-Linux/main/install.sh)
+placeholder install
 ```
 You will likely be asked for sudo privileges to write to the `/tmp/` folder. This downloads the files needed for installation (images, license, and the script itself). 
 
@@ -62,7 +62,7 @@ The installer comes preset with 4 togglable options - which will be expanded in 
 
 - Close Spotify completely, then run the following command in your terminal:
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/SpotX-CLI/SpotX-Linux/main/uninstall.sh)
+placeholder-uninstall
 ```
 You will once again be asked for temporary writing to the `/tmp/` folder.
 
@@ -73,10 +73,10 @@ sudo apt remove spotify-client && sudo apt install spotify-client
 
 ### DISCLAIMER
 
-- Ad blocking is the main concern of this repo. Any other feature provided by SpotX-Linux or consequence of using those features will be the sole responsibility of the user, not BlockTheSpot/SpotX/SpotX-CLI/SpotX-Linux.
+- Ad blocking is the main concern of this repo. Any other feature provided by SpotX-Linux, SpotX-GUI-Linux, or consequence of using those features will be the sole responsibility of the end user, not BlockTheSpot, SpotX, SpotX-CLI, SpotX-Linux, or SpotX-GUI-Linux.
 
 ### Credits
 
 - Thanks to [amd64fox](https://github.com/amd64fox/spotx) for work on SpotX.
 - Thanks to [jetfire](https://github.com/jetfir3) for work on SpotX.
-- Thanks to [SpotX - amd64fox](https://github.com/amd64fox/spotx) for work on SpotX.
+- Thanks to [placeholder](https://github.com/amd64fox/spotx) for work on SpotX.
