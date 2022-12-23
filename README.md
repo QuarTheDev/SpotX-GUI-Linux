@@ -1,7 +1,6 @@
 
-
   <p align="center">
-  <a href="https://github.com/DabiaTheNord/SpotX-GUI-Linux"><img src="https://github.com/DabiaTheNord/SpotX-GUI-Linux/raw/main/.github/Pic/spotlogo.png" />
+  <a href="https://github.com/QuarTheDev/SpotX-GUI-Linux"><img src="https://github.com/QuarTheDev/SpotX-GUI-Linux/raw/main/.github/Pic/spotlogo.png" />
 </p>
 
 ***
@@ -10,7 +9,7 @@
     <h4 align="center">A beautiful GUI fork for SpotX-Linux built using just bash and yad.</h4>
 </center>
   <p align="center">
-  <a href="https://github.com/DabiaTheNord/SpotX-GUI-Linux"><img src="https://github.com/DabiaTheNord/SpotX-GUI-Linux/raw/main/.github/Pic/preview1.png"/>
+  <a href="https://github.com/QuarTheDev/SpotX-GUI-Linux"><img src="https://github.com/QuarTheDev/SpotX-GUI-Linux/raw/main/.github/Pic/preview1.png"/>
 </p>
 
 ---
@@ -21,7 +20,7 @@ This is an **unofficial** fork of SpotX-Linux. While there may be an official Sp
 
 With that being said, this is just a **side project** that I made in just 2 days. There's bound to be errors and issues in every corner. This is a learning experience for me and end users should treat it as such.
 
-If you encounter any issues on the **GUI** side of things, feel free to [create an issue on this page](https://github.com/DabiaTheNord/SpotX-GUI-Linux/issues/new). If it's a problem related to the core functionality of SpotX, [create an issue on the official page](https://github.com/SpotX-CLI/SpotX-Linux/issues/new).
+If you encounter any issues on the **GUI** side of things, feel free to [create an issue on this page](https://github.com/QuarTheDev/SpotX-GUI-Linux/issues/new). If it's a problem related to the core functionality of SpotX, [create an issue on the official page](https://github.com/SpotX-CLI/SpotX-Linux/issues/new).
 
 ### Dependencies
 
@@ -43,7 +42,7 @@ Ensure that your Spotify client is supported. Both SpotX and SpotX-GUI **do not*
 
 Open your terminal and enter the following command;
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/DabiaTheNord/SpotX-GUI-Linux/main/install/init.sh)
+bash <(curl -sSL https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/main/install/init.sh)
 ```
 A command line will pop up, indicating the preparation of the installer. In a few seconds, it should run.
 
@@ -77,7 +76,7 @@ sudo apt remove spotify-client && sudo apt install spotify-client
 
 > **Will there be a Windows and Mac release?**
 
-I truly doubt it. If I were to make a Windows version, I'd want it to be UWP (because pretty), but that would mean it's significantly more difficult than just making a couple generic vbs popups. As for Mac, I've never even touched an Apple PC before and that probably won't change.
+I truly doubt it. If I were to make a Windows version, I'd want it to be UWP (because pretty Mica), but that would mean it's significantly more difficult than just making a couple generic vbs popups. As for Mac, I've never even touched an Apple PC before and that probably won't change.
 
 > **Does this update automatically when [SpotX-Linux](https://github.com/SpotX-CLI/SpotX-Linux) does?**
 
@@ -85,7 +84,7 @@ No. every time there's an update to SpotX, I have to do more or less a full rewr
 
 > **I found a small error that won't affect the overall execution of SpotX-GUI. What do I do?**
 
-If it's truly minor and won't cause much issues, tell me over Discord ([Dabia#4243](https://discordapp.com/users/1010372895974903818/)) rather than making an issue so I can learn from my mistakes without having to quickly patch it.
+I don't really update this anymore and may soon archive it anyway. I appreciate the efforts though.
 
 > Did anyone really ask these questions?
 
