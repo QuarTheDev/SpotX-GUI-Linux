@@ -5,14 +5,14 @@
 # This unpacks essential items for the installer to run properly.
 # If you're looking for the source to the actual installer,
 # view the GitHub;
-# https://github.com/DabiaTheNord/SpotX-GUI-Linux
+# https://github.com/QuarTheDev/SpotX-GUI-Linux
 
 # vars
-LICENSE=https://raw.githubusercontent.com/DabiaTheNord/SpotX-GUI-Linux/main/install/license
-INSTALLER=https://raw.githubusercontent.com/DabiaTheNord/SpotX-GUI-Linux/main/install/spotx-gui-installer.sh
-ICON32=https://raw.githubusercontent.com/DabiaTheNord/SpotX-GUI-Linux/main/install/icon32x32.png
-ICON64=https://raw.githubusercontent.com/DabiaTheNord/SpotX-GUI-Linux/main/install/icon64x64.png
-ICON128=https://raw.githubusercontent.com/DabiaTheNord/SpotX-GUI-Linux/main/install/icon128x128.png
+LICENSE=https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/main/install/license
+INSTALLER=https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/main/install/spotx-gui-installer.sh
+ICON32=https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/main/install/icon32x32.png
+ICON64=https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/main/install/icon64x64.png
+ICON128=https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/main/install/icon128x128.png
 # vars
 
 echo -e "Setting up installation directory...\n"
