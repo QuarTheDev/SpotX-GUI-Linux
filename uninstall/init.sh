@@ -5,7 +5,7 @@
 # This unpacks essential items for the uninstaller to run properly.
 # If you're looking for the source to the actual uninstaller,
 # view the GitHub;
-# https://github.com/DabiaTheNord/SpotX-GUI-Linux
+# https://github.com/QuarTheDev/SpotX-GUI-Linux
 
 
 
