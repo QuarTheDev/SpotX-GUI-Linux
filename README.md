@@ -93,4 +93,5 @@ Nope
 
 - Thanks to [amd64fox](https://github.com/amd64fox/spotx) for work on SpotX.
 - Thanks to [jetfire](https://github.com/jetfir3) for work on SpotX.
+- Thanks to [Ciraxy](https://discordapp.com/users/300894605992394755/) for the new logo.
 - Thanks to [the SpotX Discord](https://discord.gg/gqNbVRe3).
