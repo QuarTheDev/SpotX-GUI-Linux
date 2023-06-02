@@ -8,43 +8,45 @@
 # https://github.com/QuarTheDev/SpotX-GUI-Linux
 
 # vars
-LICENSE=https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/main/install/license
-INSTALLER=https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/main/install/spotx-gui-installer.sh
-ICON32=https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/main/install/icon32x32.png
-ICON64=https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/main/install/icon64x64.png
-ICON128=https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/main/install/icon128x128.png
+LICENSE="https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/main/install/license"
+INSTALLER="https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/main/install/spotx-gui-installer.sh"
+ICON32="https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/main/install/icon32x32.png"
+ICON64="https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/main/install/icon64x64.png"
+ICON128="https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/main/install/icon128x128.png"
 # vars
 
-echo -e "Setting up installation directory...\n"
+printf "Setting up installation directory...\n\n"
 #INIT DIRECTORY
-echo -e "Making folders..."
+printf "Making folders...\n"
 mkdir -p ~/.temp/
-echo -e "Created ~/.temp/"
+printf "Created ~/.temp/\n"
 mkdir -p ~/.temp/icons/
-echo -e "Created ~/.temp/icons/"
-echo -e ""
-echo -e "Downloading content..."
+printf "Created ~/.temp/icons/\n\n"
+printf ""
+printf "Downloading content...\n\n"
 cd ~/.temp/
-echo -e "Downloading license (1.04kb)"
-curl -O -s $LICENSE
-echo -e "Created ~/.temp/license\n"
-echo -e "Downloading spotx-gui-installer.sh (12.1kb)"
-curl -O -s $INSTALLER
-echo -e "Created ~/.temp/spotx-gui-installer.sh\n"
+printf "Downloading license\n"
+wget -q $LICENSE
+printf "Created ~/.temp/license\n\n"
+printf "Downloading spotx-gui-installer.sh\n"
+wget -q $INSTALLER
+printf "Created ~/.temp/spotx-gui-installer.sh\n\n"
 cd ~/.temp/icons/
-echo -e "Downloading icon32x32.png (2.17kb)"
-curl -O -s $ICON32
-echo -e "Created ~/.temp/license\n"
-echo -e "Downloading icon64x64.png (5.73kb)"
-curl -O -s $ICON64
-echo -e "Created ~/.temp/spotx-gui-installer.sh\n"
-echo -e "Downloading icon128x128.png (13.4kb)"
-curl -O -s $ICON128
-echo -e "Created ~/.temp/spotx-gui-installer.sh\n"
-echo -e "Preparation completed. Launching installer..."
+printf "Downloading icon32x32.png\n"
+wget -q $ICON32
+printf "Created ~/.temp/license\n\n"
+printf "Downloading icon64x64.png\n"
+wget -q $ICON64
+printf "Created ~/.temp/spotx-gui-installer.sh\n\n"
 
-cd ~/.temp/ && bash spotx-gui-installer.sh
+printf "Downloading icon128x128.png\n"
+wget -q $ICON128
+printf "Created ~/.temp/spotx-gui-installer.sh\n\n"
+printf "Preparation completed. Launching installer...\n\n"
+
+cd ~/.temp/ 
+sh spotx-gui-installer.sh
+printf "Removing temporary files...\n"
+rm -rf ~/.temp:?
+printf "Transaction complete\n"
 exit
-
-# If i left behind any leftovers, use this;
-rm -f -r ~/.temp/
