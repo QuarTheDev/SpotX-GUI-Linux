@@ -1,26 +1,26 @@
-
-  <p align="center">
-  <a href="https://github.com/QuarTheDev/SpotX-GUI-Linux"><img src="https://github.com/QuarTheDev/SpotX-GUI-Linux/raw/main/.github/Pic/spotlogo.png" />
+<p align="center">
+	<a href="https://github.com/QuarTheDev/SpotX-GUI-Linux">
+	<img src="https://github.com/QuarTheDev/SpotX-GUI-Linux/raw/main/.github/Pic/spotlogo.png">
 </p>
 
 ***
 
 <center>
-    <h4 align="center">A beautiful GUI fork for SpotX-Linux built using just bash and yad.</h4>
+    <h4 align="center">A beautiful GUI fork for SpotX-Bash inspired from Windows.</h4>
 </center>
   <p align="center">
   <a href="https://github.com/QuarTheDev/SpotX-GUI-Linux"><img src="https://github.com/QuarTheDev/SpotX-GUI-Linux/raw/main/.github/Pic/preview1.png"/>
 </p>
 
 ---
+### ⚠️ WARNING ⚠️
+
+SpotX-GUI is undergoing a major rewrite. Please support the official development of SpotX-Bash at [`jetfir3`](https://github.com/jetfir3/SpotX-Bash)'s page.
+
 
 ### Disclaimer:
 
-This is an **unofficial** fork of SpotX-Linux. While there may be an official SpotX-GUI line in the future, for now this one is maintained by myself.
-
-With that being said, this is just a **side project** that I made in just 2 days. There's bound to be errors and issues in every corner. This is a learning experience for me and end users should treat it as such.
-
-If you encounter any issues on the **GUI** side of things, feel free to [create an issue on this page](https://github.com/QuarTheDev/SpotX-GUI-Linux/issues/new). If it's a problem related to the core functionality of SpotX, [create an issue on the official page](https://github.com/SpotX-CLI/SpotX-Linux/issues/new).
+This is an **unofficial** fork of SpotX-Bash. Any issue on the graphical side of things should be submitted here, while any core functionality issues should be submitted on the [official page](https://github.com/jetfir3/SpotX-Bash).
 
 ### Dependencies
 
@@ -30,13 +30,14 @@ If you encounter any issues on the **GUI** side of things, feel free to [create 
 
 ### Features:
 
-- Blocks all banner/video/audio ads within the app
+- Blocks all audio, banner & video ads
 - Blocks logging (Sentry, etc)
-- Unlocks the skip function for any track
-- Enables some experimental features (optional)
+- Blocks automatic updates (optional)
+- Enables [experimental features](https://github.com/amd64fox/SpotX/discussions/50) (optional)
+- Removes audiobooks, episodes & podcasts on home screen (optional)
 
 ### Preparation
-Ensure that your Spotify client is supported. Both SpotX and SpotX-GUI **do not** support the snap release at this time. Ensure that your Spotify client is fully closed before installation.
+Ensure that your Spotify client is supported. Both SpotX-GUI and SpotX-Bash **do not** support the snap release at this time. Ensure that your Spotify client is fully closed before installation.
 
 ### ✨ **Installation** ✨
 
@@ -44,54 +45,58 @@ Open your terminal and enter the following command;
 ```
 bash <(curl -sSL https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/main/install/init.sh)
 ```
-A command line will pop up, indicating the preparation of the installer. In a few seconds, it should run.
+A command line will pop up, indicating the preparation of the installer. It will take a moment to initialize and open the GUI.
 
 ### Options
 
-This patcher comes preset with 4 toggle options which may be expanded in the future.
-- Clear app cache -- use if UI-related patches aren't working.
-- Experimental features -- enables experimental features.
-- Force patch -- forces re-patching if a backup is detected.
-- Premium subscription setup -- use if you have Spotify Premium.
+- Clear cache
+- Premium User
+- Force SpotX installation
+- Assign a manual path
+- Multiple togglable options:
+- - Experimental left sidebar
+- - 'Made for You'
+- - Experimental right sidebar
+- - Colors in experimental sidebar
+- - Lyrics in experimental sidebar
+- - Old home screen UI
+- - Non-music categories
+- - Experimental features
 
 ### Uninstall:
 
-A GUI uninstaller is still in the works. For now, use the suggested action for the CLI version:
+A graphical uninstaller is still in the works. For now, use the suggested action for the standard version:
 
 - Close Spotify completely, then run the following command in your terminal:
 ```
-bash <(curl -sSL https://raw.githubusercontent.com/SpotX-CLI/SpotX-Linux/main/uninstall.sh)
+bash <(curl -sSL https://gist.github.com/jetfir3/e8830cf8deba6a4f15eec094d344f7b1/raw/spotx.sh) -U
 ```
+<!--
+Placeholder for future graphical uninstaller:
 
 If you do not wish for another graphical installer, you can alternatively run the following in your terminal to uninstall SpotX:
 ```
-sudo apt remove spotify-client && sudo apt install spotify-client
+bash <(curl -sSL https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/main/uninstall/init.sh)
 ```
-
-### DISCLAIMER
-
-- Ad blocking is the main concern of this repo. Any other feature provided by SpotX-Linux, SpotX-GUI-Linux, or consequence of using those features will be the sole responsibility of the end user, not BlockTheSpot, SpotX, SpotX-CLI, SpotX-Linux, or SpotX-GUI-Linux.
+-->
 
 ### FAQ
 
-> **Will there be a Windows and Mac release?**
+**Will there be a Windows and Mac release?**
+> I doubt it. If I were to make a Windows version, I'd want it to be a full UWP program, since I don't believe a couple of Visual Basic popups would suffice. As for Mac, I've never even touched an Apple computer before and that won't ever change. (Thanks Stallman)
 
-I truly doubt it. If I were to make a Windows version, I'd want it to be UWP (because pretty Mica), but that would mean it's significantly more difficult than just making a couple generic vbs popups. As for Mac, I've never even touched an Apple PC before and that probably won't change.
+**Does this update automatically when [SpotX-Bash](https://github.com/jetfir3/SpotX-Bash) does?**
+> For the most part, **yes**. The core functionality remains the same with every update. However, I have to manually add ticker options for each new argument.
 
-> **Does this update automatically when [SpotX-Linux](https://github.com/SpotX-CLI/SpotX-Linux) does?**
+**I found a small error that won't affect the overall execution of SpotX-GUI. What do I do?**
+> If it involves an issue regarding core functionality (i.e. getting an error popup), make an issue on the [SpotX-Bash](https://github.com/jetfir3/SpotX-Bash/issues/new) page. However, if it's a graphical issue (i.e. icons not properly displaying), make an issue [here](https://github.com/QuarTheDev/SpotX-GUI-Linux/issues/new).
 
-No. every time there's an update to SpotX, I have to do more or less a full rewrite. Like I said, this is a side project and is only intended for experimentation with bash, GTK+ and `yad`.
+**What happened to SpotX-CLI?**
+> SpotX-CLI is **an unofficial, outdated fake** of SpotX and is not owned by amd64fox, jetfir3, or myself.  There is not a Discord community for SpotX or BlockTheSpot at this time. The only official community for SpotX can be found on [Telegram](https://t.me/SpotxCommunity).
 
-> **I found a small error that won't affect the overall execution of SpotX-GUI. What do I do?**
-
-I don't really update this anymore and may soon archive it anyway. I appreciate the efforts though.
-
-> Did anyone really ask these questions?
-
-Nope
 ### Credits
 
 - Thanks to [amd64fox](https://github.com/amd64fox/spotx) for work on SpotX.
-- Thanks to [jetfire](https://github.com/jetfir3) for work on SpotX.
-- Thanks to [Ciraxy](https://discordapp.com/users/300894605992394755/) for the new logo.
-- Thanks to [the SpotX Discord](https://discord.gg/gqNbVRe3).
+- Thanks to [jetfir3](https://github.com/jetfir3) for work on SpotX.
+- Thanks to [Ciraxy](https://discordapp.com/users/300894605992394755/) for the logo variant.
+- Thanks to [the SpotX Community](https://t.me/SpotxCommunity).
