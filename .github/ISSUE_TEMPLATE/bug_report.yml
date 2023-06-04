@@ -1,0 +1,38 @@
+name: ❌ Bug report
+description: Report errors or unexpected behavior
+body:
+  - type: checkboxes
+    id: '1'
+    attributes:
+      label: Have you read the README and checked issues?
+      options:
+        - label: I have read the README.
+          required: true
+        - label: I have checked all issues.
+          required: true
+        - label: My issue is with the GUI, not with the core function of SpotX.
+          required: true
+  - type: textarea
+    id: '2'
+    attributes:
+      label: Provide some basic system information.
+      value: |-
+        OS: 
+        Shell: 
+        Terminal: 
+    validations:
+      required: true
+  - type: textarea
+    id: '3'
+    attributes:
+      label: What's gone wrong?
+      description: Please explain in detail.
+      placeholder: 1, 2, 3...
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: >-
+        <sup>This issue form is barebones. Until it's improved, feel free to
+        create a [blank
+        issue](https://github.com/QuarTheDev/SpotX-GUI-Linux/issues/new).</sup>
