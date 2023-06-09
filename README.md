@@ -14,6 +14,10 @@
 
 ---
 
+### ⚠️ WARNING ⚠️
+
+SpotX-GUI is undergoing a [major rewrite](https://github.com/QuarTheDev/SpotX-GUI-Linux/tree/rewrite). Please support the official development of SpotX-Bash at [`jetfir3`](https://github.com/jetfir3/SpotX-Bash)'s page.
+    
 ### Disclaimer:
 
 This is an **unofficial** fork of SpotX-Linux. While there may be an official SpotX-GUI line in the future, for now this one is maintained by myself.
