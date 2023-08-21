@@ -1,26 +1,34 @@
-<p align="center">
-	<a href="https://github.com/QuarTheDev/SpotX-GUI-Linux">
-	<img src="https://github.com/QuarTheDev/SpotX-GUI-Linux/raw/main/.github/Pic/spotlogo.png">
-</p>
+<div style="text-align: center;">
+  <a href="https://github.com/QuarTheDev/SpotX-GUI-Linux">
+    <img src="https://github.com/QuarTheDev/SpotX-GUI-Linux/raw/main/.github/Pic/spotlogo.png" alt="SpotX Logo">
+  </a>
+</div>
 
-***
+<h4 style="text-align: center;">A <strong>beautiful</strong> GUI installer for SpotX-Bash.</h4>
 
-<center>
-    <h4 align="center">A beautiful GUI installer for SpotX-Bash, inspired by Windows.</h4>
-</center>
-  <p align="center">
-  <a href="https://github.com/QuarTheDev/SpotX-GUI-Linux"><img src="https://github.com/QuarTheDev/SpotX-GUI-Linux/raw/main/.github/Pic/preview1.png"/>
-</p>
+<div style="text-align: center;">
+  <a href="https://github.com/QuarTheDev/SpotX-GUI-Linux">
+    <img src="https://github.com/QuarTheDev/SpotX-GUI-Linux/raw/main/.github/Pic/preview1.png" alt="Preview Image">
+  </a>
+</div>
+
 
 ---
 ### ⚠️ WARNING ⚠️
 
 SpotX-GUI is undergoing a major rewrite. Please support the official development of SpotX-Bash at [`jetfir3`](https://github.com/jetfir3/SpotX-Bash)'s page.
 
+If you're here to run the rewrite, *don't bother*. It isn't functional whatsoever at this time, and the pre-rewrite code still remains. Things are being worked on behind the scenes to make the update process more simple. <ins>Issues are highly discouraged and frowned upon at this time.</ins>
+
+SpotX-GUI-Linux is **not** a priority project of mine. I am busy on many other projects at this time, so this project could take anywhere from months to years to be complete.
+
+The rewrite of SpotX-GUI will interact with SpotX <ins>directly</ins>, rather than be a direct fork of SpotX. This simple optimization will speed up development and make releases much more stable.
+
+I also have plans to make SpotX-GUI cross-platform, so you can have a graphical installer on Linux, Windows, and Mac (with major releases in that order).
 
 ### Disclaimer:
 
-This is an **unofficial** fork of SpotX-Bash. Any issue on the graphical side of things should be submitted here, while any core functionality issues should be submitted on the [official page](https://github.com/jetfir3/SpotX-Bash).
+This is an **unofficial** fork of SpotX-Bash. Any issue on the graphical side of things should be submitted [here](https://github.com/QuarTheDev/SpotX-GUI-Linux/issues/new/choose), while any core functionality issues should be submitted on the [official page](https://github.com/jetfir3/SpotX-Bash).
 
 ### Dependencies
 
@@ -48,7 +56,7 @@ Ensure that your Spotify client is supported. Both SpotX-GUI and SpotX-Bash **do
 
 ### ✨ **Installation** ✨
 
-Open your terminal and enter the following command;
+Open your terminal and paste/type the following command;
 ```
 bash <(curl -sSL https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/main/install/init.sh)
 ```
@@ -58,14 +66,14 @@ A command line will pop up, indicating the preparation of the installer. It will
 
 A graphical uninstaller is still in the works. For now, use the suggested action for the standard version:
 
-- Close Spotify completely, then run the following command in your terminal:
+- Close Spotify completely, then paste/type the following command in your terminal:
 ```
 bash <(curl -sSL https://gist.github.com/jetfir3/e8830cf8deba6a4f15eec094d344f7b1/raw/spotx.sh) -U
 ```
 <!--
 Placeholder for future graphical uninstaller:
 
-If you do not wish for another graphical installer, you can alternatively run the following in your terminal to uninstall SpotX:
+If you do not wish for another graphical installer, you can alternatively paste/type the following in your terminal to uninstall SpotX:
 ```
 bash <(curl -sSL https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/main/uninstall/init.sh)
 ```
@@ -74,7 +82,7 @@ bash <(curl -sSL https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/ma
 ### FAQ
 
 **Will there be a Windows and Mac release?**
-> I doubt it. If I were to make a Windows version, I'd want it to be a full UWP program, since I don't believe a couple of Visual Basic popups would suffice. As for Mac, I've never even touched an Apple computer before and that won't ever change. (Thanks Stallman)
+> It's in the works. First, I plan to release a stable Linux release, then a stable Windows release, and finally a stable Mac release. **Linux will always be top-priority and will get priority fixes.**
 
 **Does this update automatically when [SpotX-Bash](https://github.com/jetfir3/SpotX-Bash) does?**
 > For the most part, **yes**. The core functionality remains the same with every update. However, I have to manually add ticker options for each new argument.
@@ -83,7 +91,7 @@ bash <(curl -sSL https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/ma
 > If it involves an issue regarding core functionality (i.e. getting an error popup), make an issue on the [SpotX-Bash](https://github.com/jetfir3/SpotX-Bash/issues/new/choose) page. However, if it's a graphical issue (i.e. icons not properly displaying), make an issue [here](https://github.com/QuarTheDev/SpotX-GUI-Linux/issues/new/choose).
 
 **What happened to SpotX-CLI?**
-> SpotX-CLI is **an unofficial, outdated fake** of SpotX and is not owned by amd64fox, jetfir3, or myself.  There is not a Discord community for SpotX or BlockTheSpot at this time. The only official community for SpotX can be found on [Telegram](https://t.me/SpotxCommunity).
+> SpotX-CLI is **an unofficial, outdated fake** of SpotX and is not owned by amd64fox, jetfir3, or myself.  There is not a Discord community for SpotX or BlockTheSpot at this time. The only official community for SpotX discussion can be found on [Telegram](https://t.me/SpotxCommunity).
 
 ### Credits
 
