@@ -1,16 +1,24 @@
+<div align="center">
+  <a href="https://github.com/QuarTheDev/SpotX-GUI-Linux/blob/main/LICENSE">
+    <img src="https://media.discordapp.net/attachments/1124590893370986526/1143053694494056518/F8JwTtsLXvnq93qBTKNpXj5EZXuvrqpq.png" alt="⚠️ IMPORTANT NOTICE: License Change to GPL 3.0 ⚠️">
+  </a>
+</div>
 
-  <p align="center">
-  <a href="https://github.com/QuarTheDev/SpotX-GUI-Linux"><img src="https://github.com/QuarTheDev/SpotX-GUI-Linux/raw/main/.github/Pic/spotlogo.png" />
-</p>
+<div align="center">
+  <a href="https://github.com/QuarTheDev/SpotX-GUI-Linux">
+    <img src="https://github.com/QuarTheDev/SpotX-GUI-Linux/raw/main/.github/Pic/spotlogo.png" alt="SpotX Logo">
+  </a>
+</div>
 
-***
+<hr>
 
-<center>
-    <h4 align="center">A beautiful GUI fork for SpotX-Linux built using just bash and yad.</h4>
-</center>
-  <p align="center">
-  <a href="https://github.com/QuarTheDev/SpotX-GUI-Linux"><img src="https://github.com/QuarTheDev/SpotX-GUI-Linux/raw/main/.github/Pic/preview1.png"/>
-</p>
+<h4 align="center">A beautiful GUI fork for SpotX-Linux built using just bash and yad.</h4>
+
+<div align="center">
+  <a href="https://github.com/QuarTheDev/SpotX-GUI-Linux">
+    <img src="https://github.com/QuarTheDev/SpotX-GUI-Linux/raw/main/.github/Pic/preview1.png" alt="Preview Image">
+  </a>
+</div>
 
 ---
 
