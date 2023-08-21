@@ -1,12 +1,14 @@
-<div style="text-align: center;">
+<div align="center">
   <a href="https://github.com/QuarTheDev/SpotX-GUI-Linux">
     <img src="https://github.com/QuarTheDev/SpotX-GUI-Linux/raw/main/.github/Pic/spotlogo.png" alt="SpotX Logo">
   </a>
 </div>
 
-<h4 style="text-align: center;">A <strong>beautiful</strong> GUI installer for SpotX-Bash.</h4>
+<hr>
 
-<div style="text-align: center;">
+<h4 align="center">A <strong>beautiful</strong> GUI installer for SpotX-Bash.</h4>
+
+<div align="center">
   <a href="https://github.com/QuarTheDev/SpotX-GUI-Linux">
     <img src="https://github.com/QuarTheDev/SpotX-GUI-Linux/raw/main/.github/Pic/preview1.png" alt="Preview Image">
   </a>
