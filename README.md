@@ -1,6 +1,12 @@
 <div align="center">
+  <a href="https://github.com/QuarTheDev/SpotX-GUI-Linux/blob/main/LICENSE">
+    <img src="https://media.discordapp.net/attachments/1124590893370986526/1143053694494056518/F8JwTtsLXvnq93qBTKNpXj5EZXuvrqpq.png" alt="⚠️ IMPORTANT NOTICE: License Change to GPL 3.0 ⚠️">
+  </a>
+</div>
+
+<div align="center">
   <a href="https://github.com/QuarTheDev/SpotX-GUI-Linux">
-    <img src="https://github.com/QuarTheDev/SpotX-GUI-Linux/raw/main/.github/Pic/spotlogo.png" alt="SpotX Logo">
+    <img src="https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/rewrite/.github/images/logo.png" alt="SpotX Logo">
   </a>
 </div>
 
@@ -10,12 +16,12 @@
 
 <div align="center">
   <a href="https://github.com/QuarTheDev/SpotX-GUI-Linux">
-    <img src="https://github.com/QuarTheDev/SpotX-GUI-Linux/raw/main/.github/Pic/preview1.png" alt="Preview Image">
+    <img src="https://raw.githubusercontent.com/QuarTheDev/SpotX-GUI-Linux/rewrite/.github/images/preview1.png" alt="Preview Image">
   </a>
 </div>
 
-
 ---
+
 ### ⚠️ WARNING ⚠️
 
 SpotX-GUI is undergoing a major rewrite. Please support the official development of SpotX-Bash at [`jetfir3`](https://github.com/jetfir3/SpotX-Bash)'s page.
